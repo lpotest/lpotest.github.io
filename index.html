@@ -1,0 +1,50 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" ng-app="abtesting"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" ng-app="abtesting"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" ng-app="abtesting"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- <base href="/"> -->
+    <title ng-bind="$root.pageTitle"></title>
+    <meta name="description" content="">
+    <meta content="always" name="referrer">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="shortcut icon"  id="tabicon" href="favicon.ico" />
+
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?34fe7f0fef9263ec4b50415e2cb18364";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="app/vendor.5f1e8478.css">
+    <link rel="stylesheet" href="app/app.8c3e323d.css">
+  </head>
+
+  <body bg-hook>
+
+    <!--[if lt IE 9]>
+      <p class="browserupgrade">为了您有更好的使用体验，请升级您的浏览器。</p>
+    <![endif]-->
+    <!-- Add your site or application content here -->
+    <div ui-view="" state-loader class="toggle" id="uiv" >
+    </div>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <script src="app/vendor.075ded03.js"></script>
+
+    <script src="app/app.0530b9e4.js"></script>
+
+  </body>
+</html>
